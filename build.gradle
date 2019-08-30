@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'cloud-study'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.baomidou', name: 'mybatis-plus', version: '3.0-RC2'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.2'
+    compile group: 'org.freemarker', name: 'freemarker', version: '2.3.9'
+    compile group: 'org.apache.velocity', name: 'velocity-engine-core', version: '2.0'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
